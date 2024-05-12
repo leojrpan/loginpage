@@ -1,0 +1,140 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: rgb(43, 43, 43);
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.window {
+    padding: 5rem;
+}
+
+.signup {
+    background-color: rgb(12.5, 52, 93);
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+    height: 615px;
+}
+
+.signup > h1 {
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    padding: 0 2rem;
+}
+
+.social-brand {
+    display: flex;
+    justify-content: center;
+    align-content: baseline;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+.social-brand p {
+    margin: 0 0.2rem;
+    font-weight: 600;
+}
+
+.divider {
+    justify-content: center;
+    display: flex;
+    color: white;
+    align-content: center;
+    margin-bottom: 1rem;
+}
+
+.divider hr {
+    width: 40%;
+    height: 1px;
+    margin: 0.6rem 1rem;
+}
+
+.divider p {
+    color: white;
+}
+
+input {
+    display: block;
+    width: calc(100% - 2rem);
+    padding: 1rem;
+    border-radius: 1rem;
+    border: transparent;
+    margin: 1rem;
+    outline: none;
+}
+
+form p {
+    margin-top: 1.2rem;
+    color: white;
+}
+
+form button {
+    width: 100%;
+    margin: 2rem 0;
+    padding: 0.5rem;
+    border: transparent;
+    border-radius: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+form {
+    padding: 0 1.5rem;
+}
+
+.login {
+    top: -1%;
+    position: relative;
+    transform: translateY(-15%);
+    padding: 1rem 1rem 3rem 1rem;
+    background-color: white;
+    border-radius: 5rem 5rem 1rem 1rem;
+    transition: transform 1s ease, top 1s ease;
+}
+
+.login p{
+    color: rgb(12.5, 52, 93);
+}
+
+.login h1 {
+    font-weight: 600;
+    text-align: center;
+    padding: 1rem;
+}
+
+.login input {
+    border: solid 1px #e7e7e7;
+}
+
+.login .social-brand {
+    border: 1px solid #e7e7e7;
+}
+
+#signup, #login {
+    cursor: pointer;
+}
